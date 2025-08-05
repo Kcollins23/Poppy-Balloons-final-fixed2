@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Poppy Balloons - Stylish Balloon Decor and Party Installations"/>
+  <title>Poppy Balloons</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+    }
+    header img {
+      max-width: 280px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin: 0.5rem 0;
+    }
+    .slogan {
+      font-size: 1.4rem;
+      color: #c94f7c;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .mission {
+      text-align: center;
+      font-size: 1.1rem;
+      margin-top: 1rem;
+      color: #666;
+      padding-bottom: 2rem;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .service-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+    .service-card:hover {
+      transform: scale(1.03);
+    }
+    .service-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .service-content {
+      padding: 1rem;
+      text-align: center;
+    }
+    .service-content h3 {
+      margin: 0.5rem 0;
+      color: #c94f7c;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background: #f28bc4;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .buttons a:hover {
+      background: #e06ba7;
+    }
+    .qr-section {
+      text-align: center;
+      margin-top: 4rem;
+    }
+    .qr-section img {
+      width: 140px;
+    }
+    .qr-section p {
+      font-size: 1rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <header>
+      <img src="images/poppy-logo.png" alt="Poppy Balloons Logo" />
+      <h1>Poppy Balloons</h1>
+      <div class="slogan">Every Celebration Starts with a POP!</div>
+      <div class="mission">
+        We deliver custom balloon décor with personality, precision, and pop — making every moment unforgettable in Cheyenne and beyond.
+      </div>
+    </header>
+
+    <div class="services">
+      <div class="service-card">
+        <img src="images/garland.jpg" alt="Balloon Garland" />
+        <div class="service-content">
+          <h3>Balloon Garland</h3>
+          <p>$125+ ($12.50/ft)</p>
+          <div class="buttons">
+            <a href="https://paypal.me/poppyballoons">Pay Now</a>
+            <a href="https://square.link/u/poppyballoons-deposit">Book with Deposit</a>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/arch.jpg" alt="Balloon Arch" />
+        <div class="service-content">
+          <h3>Balloon Arch</h3>
+          <p>Starting at $200</p>
+          <div class="buttons">
+            <a href="https://paypal.me/poppyballoons">Pay Now</a>
+            <a href="https://square.link/u/poppyballoons-deposit">Book with Deposit</a>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/grab.jpg" alt="Grab and Go Garland" />
+        <div class="service-content">
+          <h3>Grab & Go Garland</h3>
+          <p>$75 Flat</p>
+          <div class="buttons">
+            <a href="https://paypal.me/poppyballoons">Pay Now</a>
+            <a href="https://square.link/u/poppyballoons-deposit">Book with Deposit</a>
+          </div>
+        </div>
+      </div>
+      <div class="service-card">
+        <img src="images/custom.jpg" alt="Custom Themes" />
+        <div class="service-content">
+          <h3>Custom Themes</h3>
+          <p>Prices Vary</p>
+          <div class="buttons">
+            <a href="https://paypal.me/poppyballoons">Pay Now</a>
+            <a href="https://square.link/u/poppyballoons-deposit">Book with Deposit</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="qr-section">
+      <p>Scan to visit our website anytime:</p>
+      <img src="images/qr.png" alt="Poppy Balloons QR Code">
+    </div>
+  </div>
+</body>
+</html>
